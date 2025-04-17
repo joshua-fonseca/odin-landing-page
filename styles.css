@@ -4,9 +4,12 @@ body {
     min-height: 100vh;
 }
 
+.window-padding {
+    padding: 0 16vw;
+}
+
 .section-one {
     background-color: #1f2937;
-    padding: 0 16vw;
     display: flex;
     flex-direction: column;
 }
