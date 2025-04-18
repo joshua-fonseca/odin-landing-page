@@ -50,7 +50,8 @@ body {
 .section-one-body {
     display: flex;
     margin: 100px 0;
-    gap: 50px;
+    /* gap: 50px; */
+    gap: 10vw;
 }
 
 .section-one-body p {
@@ -69,7 +70,7 @@ body {
 .section-one-left {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: 2;
 }
 .section-one-left button {
     background-color: #3882f6;
@@ -85,7 +86,6 @@ body {
 
 .section-one-right {
     flex: 1;
-    margin: 0;
     align-content: center;
     text-align: center;
     background-color:#60656d;
