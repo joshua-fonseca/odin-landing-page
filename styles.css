@@ -4,8 +4,10 @@ body {
     min-height: 100vh;
 }
 
+/* change this to alter the padding on the sides */
 .window-padding {
-    padding: 0 16vw;
+    padding-left: 16vw;
+    padding-right: 16vw;
 }
 
 .section-one {
@@ -124,4 +126,31 @@ body {
     height: 13vw;
     align-content: center;
     color: #3882f6;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.section-three blockquote p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    margin: 0;
+}
+
+.section-three blockquote {
+    margin: 0;
+}
+
+.section-three .bold-p {
+    margin: 0;
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 20px;
 }
