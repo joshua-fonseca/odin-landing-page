@@ -197,3 +197,13 @@ body {
     font-weight: 700;
     margin-left: auto;
 }
+
+.footer {
+    height: 100px;
+    background: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
