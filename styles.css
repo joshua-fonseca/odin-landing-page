@@ -154,3 +154,46 @@ body {
     font-weight: 900;
     font-size: 20px;
 }
+
+.section-four {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+/* like the anime */
+.blue-box {
+    display: flex;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 3vw 7vw;
+    border-radius: 10px;
+    border: solid;
+    border-color: #3882f6;
+    border-width: 1px;
+}
+
+.section-four .bold-p {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.section-four p {
+    margin: 0;
+}
+
+.section-four button {
+    background-color: #3882f6;
+    border: solid;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-width: 1px;;
+    padding: 8px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    align-self: flex-end;
+    font-weight: 700;
+    margin-left: auto;
+}
